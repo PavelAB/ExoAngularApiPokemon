@@ -1,0 +1,15 @@
+<p>search works!</p>
+<input type="text" [(ngModel)]="valueInput">
+<button (click)="searchPikachu()" >Recherche</button>
+
+
+<p>{{monMessage}}</p>
+
+
+<div>
+    <h4 *ngIf="monPokemon">
+        {{monPokemon.name}}
+    </h4>
+
+
+</div>
